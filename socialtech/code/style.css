@@ -156,7 +156,7 @@ h3 {
 #product-left > div {
   position: relative;
   height: 480px;
-  margin: right 20px;
+  margin-right: 20px;
 }
 
 #product-right > div {
@@ -176,11 +176,73 @@ h3 {
   left: 0;
   margin: 0 40px 0 40px;
   padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
 }
 
 .product-explain > span {
   color: #2710d5;
   font-weight: bold;
   font-size: 16px;
+  margin: 0;
+}
+
+.product-explain > h3 {
+  font-size: 20px;
+  margin: 5px 0 5px 0;
+}
+
+.product-explain > p {
+  font-size: 14px;
+  margin: 0;
+}
+
+#product-more {
+  margin: 0 auto -42px auto;
+}
+
+#aboutus {
+  margin: 80px auto 80px;
+}
+
+/*----- about us -----*/
+
+#aboutus > div {
+  display: flex;
+}
+
+.culture-img {
+  width: 100%;
+  align-self: flex-start;
+}
+
+.culture-img2 {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.culture-table {
+  max-width: 500px;
+  margin-right: 50px;
+}
+
+.culture-num {
+  font-size: 80px;
+  color: #2710d5;
+  margin-right: 20px;
+}
+
+.culture-en {
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 24px;
+  display: block;
+}
+
+.culture-jp {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.culture-description {
   margin: 0;
 }
